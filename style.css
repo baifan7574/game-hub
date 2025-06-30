@@ -1,1 +1,8 @@
-body{background:#121212;color:white;font-family:sans-serif} header,footer{background:#1e1e1e;padding:10px;text-align:center;} a{color:#00f;text-decoration:none;} .game-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;} img{width:100%;border-radius:10px;}
+
+body { background: #111; color: #fff; font-family: sans-serif; margin: 0; padding: 0; }
+header { background: #000; padding: 1em; text-align: center; }
+nav a { margin: 0 1em; color: #00f; text-decoration: none; }
+.hot-games { padding: 2em; }
+.game-grid { display: flex; gap: 2em; }
+.game img { width: 150px; height: 150px; display: block; }
+footer { text-align: center; padding: 1em; background: #000; margin-top: 3em; }
