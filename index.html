@@ -2,27 +2,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>GoGameFun</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoGameFun</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .games {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .game-btn {
+      padding: 15px 25px;
+      background-color: #222;
+      border: none;
+      border-radius: 8px;
+      color: #00aaff;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    a {
+      color: #00aaff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to GoGameFun!</h1>
-        <p>Enjoy a variety of mini-games for fun and relaxation.</p>
-        <div class="grid">
-            <a href="game1.html">Game 1</a>
-<a href="game2.html">Game 2</a>
-<a href="game3.html">Game 3</a>
-<a href="game4.html">Game 4</a>
-<a href="game5.html">Game 5</a>
-<a href="game6.html">Game 6</a>
-<a href="game7.html">Game 7</a>
-<a href="game8.html">Game 8</a>
-<a href="game9.html">Game 9</a>
-<a href="game10.html">Game 10</a>
-        </div>
-        <a class="contact" href="contact.html">Contact Us</a>
-    </div>
+  <h1>Welcome to <strong>GoGameFun!</strong></h1>
+  <p>Enjoy a variety of mini-games for fun and relaxation.</p>
+  <div class="games">
+    <a href="games/game1/index.html"><button class="game-btn">Game 1</button></a>
+    <a href="games/game2/index.html"><button class="game-btn">Game 2</button></a>
+  </div>
+  <br />
+  <a href="contact.html">Contact Us</a>
 </body>
 </html>
