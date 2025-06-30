@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>GoGameFun - Free Online Games</title>
-    <meta name="description" content="Play fun and free online games. No download needed.">
-    <style>
-        body { font-family: Arial, sans-serif; background: #121212; color: white; text-align: center; margin: 0; padding: 0; }
-        h1 { padding: 20px; }
-        .games { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
-        .game-card { background: #1f1f1f; border-radius: 10px; padding: 10px; width: 200px; box-shadow: 0 0 10px #000; }
-        .game-card img { width: 100%; height: 120px; object-fit: cover; border-radius: 6px; }
-        .game-card a { color: #00f0ff; text-decoration: none; display: block; margin-top: 10px; font-weight: bold; }
-        footer { padding: 20px; font-size: 14px; color: #aaa; }
-    </style>
+<meta charset="UTF-8">
+<title>GoGameFun - Mini Games Hub</title>
+<style>
+    body { font-family: sans-serif; text-align: center; background: #111; color: white; margin: 0; padding: 0;}
+    header { background: #222; padding: 20px 0; }
+    h1 { margin: 0; }
+    .games { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .card { background: #333; border-radius: 10px; width: 200px; margin: 10px; padding: 10px; color: white; text-decoration: none; transition: 0.3s; }
+    .card:hover { background: #555; }
+    .card img { width: 100%; border-radius: 10px; }
+    footer { padding: 20px; background: #222; color: #ccc; }
+</style>
 </head>
 <body>
-    <h1>Welcome to GoGameFun</h1>
-    <div class="games">
-        <div class="game-card">
-            <img src="assets/plane.png" alt="Plane Shooter">
-            <a href="games/plane/index.html" target="_blank">Plane Shooter</a>
-        </div>
-        <div class="game-card">
-            <img src="assets/2048.png" alt="2048">
-            <a href="games/2048/index.html" target="_blank">2048</a>
-        </div>
-        <div class="game-card">
-            <img src="assets/snake.png" alt="Snake Game">
-            <a href="games/snake/index.html" target="_blank">Snake Game</a>
-        </div>
-    </div>
-    <footer>Contact us: baifan7574@gmail.com</footer>
+<header><h1>GoGameFun 🎮</h1><p>Enjoy 10 fun web games for free!</p></header>
+<div class="games">
+
+        <a class="card" href="plane_shooter/index.html" target="_blank">
+            <img src="thumbs/plane_shooter.jpg" alt="Plane Shooter">
+            <h3>Plane Shooter</h3>
+        </a>
+        
+        <a class="card" href="game_2048/index.html" target="_blank">
+            <img src="thumbs/game_2048.jpg" alt="2048">
+            <h3>2048</h3>
+        </a>
+        
+        <a class="card" href="snake_game/index.html" target="_blank">
+            <img src="thumbs/snake_game.jpg" alt="Snake">
+            <h3>Snake</h3>
+        </a>
+        
+        <a class="card" href="tic_tac_toe/index.html" target="_blank">
+            <img src="thumbs/tic_tac_toe.jpg" alt="Tic Tac Toe">
+            <h3>Tic Tac Toe</h3>
+        </a>
+        
+        <a class="card" href="memory_cards/index.html" target="_blank">
+            <img src="thumbs/memory_cards.jpg" alt="Memory Cards">
+            <h3>Memory Cards</h3>
+        </a>
+        
+        <a class="card" href="color_match/index.html" target="_blank">
+            <img src="thumbs/color_match.jpg" alt="Color Match">
+            <h3>Color Match</h3>
+        </a>
+        
+        <a class="card" href="brick_breaker/index.html" target="_blank">
+            <img src="thumbs/brick_breaker.jpg" alt="Brick Breaker">
+            <h3>Brick Breaker</h3>
+        </a>
+        
+        <a class="card" href="whack_a_mole/index.html" target="_blank">
+            <img src="thumbs/whack_a_mole.jpg" alt="Whack A Mole">
+            <h3>Whack A Mole</h3>
+        </a>
+        
+        <a class="card" href="maze_escape/index.html" target="_blank">
+            <img src="thumbs/maze_escape.jpg" alt="Maze Escape">
+            <h3>Maze Escape</h3>
+        </a>
+        
+        <a class="card" href="sliding_puzzle/index.html" target="_blank">
+            <img src="thumbs/sliding_puzzle.jpg" alt="Sliding Puzzle">
+            <h3>Sliding Puzzle</h3>
+        </a>
+        
+</div>
+<footer>
+    <p>Contact: <a href="mailto:baifan7574@gmail.com" style="color: lightblue;">baifan7574@gmail.com</a></p>
+</footer>
 </body>
 </html>
