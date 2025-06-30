@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>GoGameFun</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>GoGameFun - Free Online Games</title>
+    <meta name="description" content="Play fun and free online games. No download needed.">
+    <style>
+        body { font-family: Arial, sans-serif; background: #121212; color: white; text-align: center; margin: 0; padding: 0; }
+        h1 { padding: 20px; }
+        .games { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+        .game-card { background: #1f1f1f; border-radius: 10px; padding: 10px; width: 200px; box-shadow: 0 0 10px #000; }
+        .game-card img { width: 100%; height: 120px; object-fit: cover; border-radius: 6px; }
+        .game-card a { color: #00f0ff; text-decoration: none; display: block; margin-top: 10px; font-weight: bold; }
+        footer { padding: 20px; font-size: 14px; color: #aaa; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>GoGameFun</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="categories.html">Categories</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <section class="hot-games">
-    <h2>Hot Games</h2>
-    <div class="game-grid">
-      <div class="game">
-        <a href="games/candy-match/index.html">
-          <img src="images/candy.png" alt="Candy Match">
-          <p>Candy Match</p>
-        </a>
-      </div>
-      <div class="game">
-        <a href="games/zombie-shoot/index.html">
-          <img src="images/zombie.png" alt="Zombie Shoot">
-          <p>Zombie Shoot</p>
-        </a>
-      </div>
+    <h1>Welcome to GoGameFun</h1>
+    <div class="games">
+        <div class="game-card">
+            <img src="assets/plane.png" alt="Plane Shooter">
+            <a href="games/plane/index.html" target="_blank">Plane Shooter</a>
+        </div>
+        <div class="game-card">
+            <img src="assets/2048.png" alt="2048">
+            <a href="games/2048/index.html" target="_blank">2048</a>
+        </div>
+        <div class="game-card">
+            <img src="assets/snake.png" alt="Snake Game">
+            <a href="games/snake/index.html" target="_blank">Snake Game</a>
+        </div>
     </div>
-  </section>
-
-  <footer>© 2025 GoGameFun.com</footer>
+    <footer>Contact us: baifan7574@gmail.com</footer>
 </body>
 </html>
