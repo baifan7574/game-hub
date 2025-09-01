@@ -1,0 +1,59 @@
+🔧 SEO 自动修复启动：2025-08-08 15:44:25
+
+
+✅ 共清理无效资源文件：0 个
+
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\brick_breaker\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\color_match\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\game_2048\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\maze_escape\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\memory_cards\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\plane_shooter\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\sliding_puzzle\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\snake_game\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\tic_tac_toe\index.html
+🔗 添加 canonical: ./index.html
+🧩 添加 schema 标记
+✅ 修复完成：D:\项目\game-hub\whack_a_mole\index.html[2025-08-09 17:42:44.556800] 🚀 开始修复 HTML 文件...
+[2025-08-09 18:11:40.187185] 🚀 开始修复 HTML 文件...
+[2025-08-09 18:11:40.191366] ✔ 修复完成: .\index.html
+[2025-08-09 18:11:40.211317] ✔ 修复完成: .\brick_breaker\index.html
+[2025-08-09 18:11:40.221601] ✔ 修复完成: .\color_match\index.html
+[2025-08-09 18:11:40.221601] ✔ 修复完成: .\game_2048\index.html
+[2025-08-09 18:11:40.221601] ✔ 修复完成: .\maze_escape\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\memory_cards\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\plane_shooter\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\sliding_puzzle\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\snake_game\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\tic_tac_toe\index.html
+[2025-08-09 18:11:40.223169] ✔ 修复完成: .\whack_a_mole\index.html
+[2025-08-09 18:11:40.223169] 📦 所有 HTML 文件扫描完成，开始生成 sitemap 与 robots...
+[2025-08-09 18:11:40.231873] 🗺 已自动生成 sitemap.xml 文件
+[2025-08-09 18:11:40.238907] 🤖 已自动生成 robots.txt 文件
+[2025-08-09 18:11:40.238907] ✅ 修复流程完成。
+[2025-08-12 13:44:16.288685] 🚀 开始修复 HTML 文件...
+[2025-08-12 13:44:16.308329] 📦 所有 HTML 文件扫描完成，开始生成 sitemap 与 robots...
+[2025-08-12 13:44:16.320370] 🗺 已自动生成 sitemap.xml 文件
+[2025-08-12 13:44:16.320370] 🤖 已自动生成 robots.txt 文件
+[2025-08-12 13:44:16.320370] ✅ 修复流程完成。
